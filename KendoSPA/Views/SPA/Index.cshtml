@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Kendo UI SPA";
+}
+
+@Styles.Render("~/Content/kendo/kendo.common.min.css") <!-- Styles to render KENDO UI -->
+@Styles.Render("~/Content/kendo/default.min.css")
+@Styles.Render("~/Content/kendo/default.mobile.min.css")
+
+@Scripts.Render("~/Scripts/kendo/jquery.min.js")
+@Scripts.Render("~/Scripts/kendo/kendo.min.js")
+ 
+
+<h2>Index</h2>
+
+<script>
+    var viewModel = kendo.observable({
+        name: "John Doe",
+        displayGreeting: function () {
+            var name = this.get("name");
+            alert("Hello, " + name + "!!!");
+        }
+    });
+</script>
