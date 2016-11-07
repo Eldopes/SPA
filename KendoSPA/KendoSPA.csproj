@@ -263,6 +263,7 @@
     <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Index\Index.css" />
     <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -350,6 +351,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\SPA\Index.cshtml" />
+    <Content Include="Views\SPA\Test.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

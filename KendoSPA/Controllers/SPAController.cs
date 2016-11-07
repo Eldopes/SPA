@@ -13,5 +13,10 @@ namespace KendoSPA.Controllers
         {
             return View();
         }
+
+        public ActionResult Test() // for Angular tutorials TODO: to remove 
+        {
+            return View();
+        }
     }
 }
